@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.price_table {
+  background-color: #ffffff;
+}
+
+.price_table_title {
+    margin-block: 8px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.price_table_boxes {
+  max-width: 1320px;
+  height: 600px;
+  margin-inline: auto;
+  text-align: center;
+}
+/* ------ Start The Box -------- */
+
+.price_table_boxes_item {
+  margin-top: 50px;
+  padding-top: 20px;
+  display: inline-block;
+  width: 320px;
+  height: 460px;
+  border-radius: 8px;
+}
+
+.price_table_boxes_item_header i {
+  margin-top: 28px;
+  font-size: 28px;
+}
+.price_table_boxes_item_header_category {
+  margin-block: 16px;
+  font-size: 20px;
+}
+.price_table_boxes_item_header_value {
+  font-size: 36px;
+}
+
+.price_table_boxes_item_list {
+  margin-block: 32px;
+}
+
+.price_table_boxes_item_list li {
+  margin-top: 8px;
+  color: #252525;
+}
+
+.price_table_boxes_item_button {
+  width: 138px;
+  padding-block: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ec3f78;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* --------- boxes_center_item additions----- */
+
+.price_table_boxes_item_center {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.price_table_boxes_item_button_purchase {
+  background-color: #55ba88;
+}
+
+/* --------- boxes_right_item additions----- */
+.price_table_boxes_item_button_enterprise {
+  background-color: #5e77f6;
+}
