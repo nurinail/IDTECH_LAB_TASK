@@ -81,3 +81,9 @@ ul li {
 .price_table_boxes_item_button_enterprise {
   background-color: #5e77f6;
 }
+
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); }
